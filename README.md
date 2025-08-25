@@ -50,14 +50,14 @@ This project uses the **[Alzheimer MRI Dataset](https://www.kaggle.com/datasets/
 
 ---
 
-git clone https://github.com/<your-username>/Alzheimer-Disease-Classification.git
-cd Alzheimer-Disease-Classification
-jupyter notebook alzheimer_disease_classification.ipynb
-
 # Create a virtual environment (recommended)
 python -m venv venv
-source venv/bin/activate   # on Linux/Mac
-venv\Scripts\activate      # on Windows
+
+source venv/bin/activate
+# on Linux/Mac
+
+venv\Scripts\activate
+# on Windows
 
 # Install dependencies
 pip install -r requirements.txt
