@@ -23,7 +23,6 @@ The goal is to support early detection and diagnosis by leveraging CNN-based arc
 
 ## 📂 Files
 - `alzheimer_disease_classification.ipynb` → Main notebook with preprocessing, training, evaluation.
-- `requirements.txt` (optional) → Dependencies for reproducibility.
 
 ---
 
@@ -45,9 +44,3 @@ The goal is to support early detection and diagnosis by leveraging CNN-based arc
 - **GPU-accelerated training**
 
 ---
-
-## 📌 How to Run
-```bash
-git clone https://github.com/<your-username>/Alzheimer-Disease-Classification.git
-cd Alzheimer-Disease-Classification
-jupyter notebook alzheimer_disease_classification.ipynb
