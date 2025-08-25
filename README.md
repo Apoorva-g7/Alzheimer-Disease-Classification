@@ -1,5 +1,5 @@
-# Alzheimer-Disease-Classification
-Deep learning project for classifying Alzheimer’s Disease stages from MRI scans using CNNs, transfer learning, data augmentation and imbalance handling techniques.
+# 🧠 Alzheimer’s Disease Classification from MRI Scans
+
 ## 📌 Project Overview
 This project focuses on classifying different stages of Alzheimer’s Disease from MRI scans using Deep Learning.  
 The goal is to support early detection and diagnosis by leveraging CNN-based architectures and transfer learning.
@@ -21,8 +21,13 @@ The goal is to support early detection and diagnosis by leveraging CNN-based arc
 
 ---
 
-## 📂 Files
-- `alzheimer_disease_classification.ipynb` → Main notebook with preprocessing, training, evaluation.
+## 📂 Dataset
+This project uses the **[Alzheimer MRI Dataset](https://www.kaggle.com/datasets/yasserhessein/dataset-alzheimer)** available on Kaggle.  
+
+- The dataset contains **Train** and **Test** folders with thousands of MRI images.  
+- To run this project locally:
+  1. Download the dataset from Kaggle.
+  2. Extract it and place it inside a `data/` directory:  
 
 ---
 
@@ -44,3 +49,15 @@ The goal is to support early detection and diagnosis by leveraging CNN-based arc
 - **GPU-accelerated training**
 
 ---
+
+git clone https://github.com/<your-username>/Alzheimer-Disease-Classification.git
+cd Alzheimer-Disease-Classification
+jupyter notebook alzheimer_disease_classification.ipynb
+
+# Create a virtual environment (recommended)
+python -m venv venv
+source venv/bin/activate   # on Linux/Mac
+venv\Scripts\activate      # on Windows
+
+# Install dependencies
+pip install -r requirements.txt
