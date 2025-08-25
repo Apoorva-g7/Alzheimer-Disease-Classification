@@ -53,11 +53,9 @@ This project uses the **[Alzheimer MRI Dataset](https://www.kaggle.com/datasets/
 # Create a virtual environment (recommended)
 python -m venv venv
 
-source venv/bin/activate
-# on Linux/Mac
+source venv/bin/activate # on Linux/Mac
 
-venv\Scripts\activate
-# on Windows
+venv\Scripts\activate # on Windows
 
 # Install dependencies
 pip install -r requirements.txt
